@@ -1,12 +1,16 @@
 body{
+  min-height: 100vh;
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
+  background: rgb(226,225,237);
+background: linear-gradient(90deg, rgba(226,225,237,1) 0%, rgba(152,198,156,0.2497373949579832) 47%, rgba(205,213,206,1) 100%);
 }
 
 .page{
   /*border: solid 1px red;*/   
   width: 1000px;
-  margin: 65px auto 0px;
+  margin: 0px auto ;
+  padding-top: 65px;
 }
 
 
@@ -31,9 +35,13 @@ a {
   color: #1F1534;
 }
 
+ul li a {
+  opacity: 0.5;
+}
 
 ul li a:hover{
   font-weight: bold;
+  opacity: 1;
 }
 
 
@@ -96,4 +104,10 @@ footer{
 
 footer a{
   font-weight: bold;
+}
+
+#balls{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
 }
